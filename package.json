@@ -1,0 +1,14 @@
+{
+  "name": "leapmind-member-daily-report",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "daily-report:send": "node scripts/daily-report/send-member-report.mjs",
+    "test": "node --test tests/daily-report.test.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "nodemailer": "^6.10.0"
+  }
+}

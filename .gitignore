@@ -12,3 +12,8 @@ target/
 .mvn/
 
 .claude/
+node_modules/
+.env
+.env.*
+!.env.example
+reports/logs/
